@@ -24,5 +24,6 @@ public class ProxyTest {
         );
         //调用代理对象的方法
         proxy.save();
+        proxy.read();
     }
 }
