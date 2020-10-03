@@ -1,5 +1,3 @@
-
-*.class
-.idea/
-copy/04_itheima_spring_jdbc_tx/itheima_spring_tx_anno/itheima_spring_tx_anno.iml
-target/
+*.*
+!src/
+!pom.xml
