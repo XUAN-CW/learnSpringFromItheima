@@ -1,4 +1,5 @@
 *.*
+!*.sql
 !*.java
 !src/
 !pom.xml
