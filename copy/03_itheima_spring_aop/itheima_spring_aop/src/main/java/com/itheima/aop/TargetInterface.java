@@ -1,7 +1,4 @@
-package com.itheima.aop;
-
-public interface TargetInterface {
-
-    public void save();
-
-}
+//package com.itheima.aop;
+//public interface TargetInterface {
+//    public void save();
+//}
