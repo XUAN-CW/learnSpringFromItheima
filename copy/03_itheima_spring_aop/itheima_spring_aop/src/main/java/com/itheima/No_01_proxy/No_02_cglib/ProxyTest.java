@@ -1,11 +1,10 @@
-package com.itheima.proxy.cglib;
-import com.itheima.proxy.jdk.TargetInterface;
+package com.itheima.No_01_proxy.No_02_cglib;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
-import java.lang.reflect.InvocationHandler;
+
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
+
 public class ProxyTest {
     public static void main(String[] args) {
         //目标对象

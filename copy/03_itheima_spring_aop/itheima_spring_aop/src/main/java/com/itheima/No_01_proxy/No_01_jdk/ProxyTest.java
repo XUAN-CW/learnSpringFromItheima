@@ -1,4 +1,4 @@
-package com.itheima.proxy.jdk;
+package com.itheima.No_01_proxy.No_01_jdk;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
