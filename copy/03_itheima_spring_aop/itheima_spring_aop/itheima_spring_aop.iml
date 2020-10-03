@@ -6,6 +6,9 @@
         <fileset id="fileset" name="ApplicationContext" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
         </fileset>
+        <fileset id="fileset2" name="ApplicationContext Anno" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext-anno.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web">
