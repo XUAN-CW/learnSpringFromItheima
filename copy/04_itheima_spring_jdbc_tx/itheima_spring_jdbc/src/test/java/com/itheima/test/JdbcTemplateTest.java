@@ -6,14 +6,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 import java.beans.PropertyVetoException;
 public class JdbcTemplateTest {
-//    @Test
-//    //测试Spring产生jdbcTemplate对象
-//    public void test2() throws PropertyVetoException {
-//        ApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
-//        JdbcTemplate jdbcTemplate = app.getBean(JdbcTemplate.class);
-//        int row = jdbcTemplate.update("insert into account values(?,?)", "lisi", 5000);
-//        System.out.println(row);
-//    }
+    @Test
+    //测试Spring产生jdbcTemplate对象
+    public void test2() throws PropertyVetoException {
+        ApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+        JdbcTemplate jdbcTemplate = app.getBean(JdbcTemplate.class);
+        int row = jdbcTemplate.update("insert into account values(?,?)", "lisi", 5000);
+        System.out.println(row);
+    }
     @Test
     //测试JdbcTemplate开发步骤
     public void test1() throws PropertyVetoException {
