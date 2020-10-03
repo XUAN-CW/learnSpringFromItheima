@@ -29,5 +29,6 @@ public class ProxyTest {
         //4、创建代理对象
         Target proxy = (Target) enhancer.create();
         proxy.save();
+        proxy.read();
     }
 }
