@@ -17,7 +17,7 @@
             <!--抽取切点表达式-->
             <aop:pointcut id="myPointcut" expression="execution(* com.itheima.No_02_aop.*.*(..))"></aop:pointcut>
             <!--切面：切点+通知-->
-<!--            <aop:before method="before" pointcut="execution(public void com.itheima.No_02_aop.Target.save())"/>-->
+            <aop:before method="before" pointcut="execution(public void com.itheima.No_02_aop.Target.save())"/>
 <!--            <aop:before method="before" pointcut="execution(* com.itheima.No_02_aop.*.*(..))"/>-->
 <!--            <aop:after-returning method="afterReturning" pointcut="execution(* com.itheima.No_02_aop.*.*(..))"/>-->
 <!--            <aop:around method="around" pointcut="execution(* com.itheima.No_02_aop.*.*(..))"/>-->
