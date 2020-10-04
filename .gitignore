@@ -1,7 +1,3 @@
-*.*
 target/
-!*.sql
-!*.java
-!src/
-!pom.xml
-copy/03_itheima_spring_aop/itheima_spring_aop/itheima_spring_aop.iml
+*.class
+.idea/
